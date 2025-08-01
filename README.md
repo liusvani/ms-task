@@ -34,7 +34,11 @@ Este microservicio automatiza el procesamiento de reportes, validación de datos
 | POST   | `/jobs/resume/{jobName}`   | Reanuda un job pausado                 |
 | POST   | `/reports/`                | Crear un registro de reporte           |
 --------------------------------------------------------------------------------
-
+##  Lista de jobName:
+    productosJob: reporte de productos mas vendidos persistidos en la bade de datos. 
+    ubicacionJob: reporte de ubicación en la cual atienden mayor cantidad de clientes persistidos en la bade de datos.
+    csvClientJob: exporta un reporte a csv con el siguiente formato de nombre - clientes_por_ubicacion_yyyy-MM-dd
+    csvProductJob: exporta un reporte a csv con el siguiente formato de nombre - productos_mas_vendidos_yyyy-MM-dd
 
 ##  Configuración Quartz
 
