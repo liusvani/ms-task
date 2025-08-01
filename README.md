@@ -13,7 +13,7 @@ Este microservicio automatiza el procesamiento de reportes, validación de datos
 - Endpoints REST para iniciar, pausar y reanudar todos los jobs programados.
 ---
 
-## 🧰 Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **Java 17** + **Spring Boot**
 - **Quartz Scheduler**
@@ -25,7 +25,7 @@ Este microservicio automatiza el procesamiento de reportes, validación de datos
 
 ---
 
-## 📡 API REST - Endpoints Clave
+## API REST - Endpoints Clave
 
 | Método | Endpoint                   | Descripción                            |
 |--------|----------------------------|----------------------------------------|
@@ -42,7 +42,7 @@ Quartz se configura en `application.yml` utilizando expresiones CRON para defini
 
 ---
 
-## ▶️ Ejecución
+##  Ejecución
 
 ```bash
 # Compilar proyecto
